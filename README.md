@@ -1,6 +1,6 @@
 # Laravel Docker Playground
 
-This repository is a fork from the  **Laravel Docker Examples Project** with the intent to lear about the framework, it's features and peculiarities. Bellow is the README.md of the original project, this might be changed in the future.
+This repository is a fork from the  **Laravel Docker Examples Project** with the intent to learn about the framework, it's features and peculiarities. Bellow is the README.md of the original project, this might be changed in the future.
 
 ## Table of Contents
 
