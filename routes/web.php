@@ -2,9 +2,15 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     Log::info('Welcome page visited');
     return view('welcome');
+});
+
+// 
+Route::get('/', function () {
+    Log::info('Welcome page visited');
+    return view('index', ['author' => 'Allrthur', 'timezone'=>date_default_timezone_get()]);
 });
 
 Route::get('/info', function () {
