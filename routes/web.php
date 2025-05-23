@@ -7,6 +7,11 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/nineties', function () {
+    Log::info('Welcome page visited');
+    return view('welcome90s');
+});
+
 // 
 Route::get('/', function () {
     Log::info('Welcome page visited');
